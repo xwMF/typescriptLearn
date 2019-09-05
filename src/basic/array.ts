@@ -4,7 +4,7 @@
 // ts中，数组类型有多种定义方式，比较灵活
 
 // 1. 类型 + 方括号 表示法
-let arrNum: number[] = [1, 2, 3, 4, 5];
+let arrNum: number[] = [1, 2, 3, 4, 5, 6];
 console.log(arrNum);
 // 数组的项中不允许出现其它类型：
 // let arrNum1: number[] = [1, 2, 3, 4, '5'];
@@ -52,8 +52,8 @@ function sum2() {
     let args: IArguments = arguments;
 }
 // 其中的 IArguments 是 ts 中定义好了的类型,它实际上就是:
-interface IArguments {
-    [index: number]: any;
-    length: number;
-    callee: Function;
-}
+// interface IArguments {
+//     [index: number]: any;
+//     length: number;
+//     callee: Function;
+// }
