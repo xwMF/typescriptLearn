@@ -20,3 +20,12 @@ src/basic/                  基础
 src/advance/                进阶
     type.ts                 类型别名
     stringLiteral.ts        字符串字面量类型
+
+git clone下来后
+
+npm install 安装依赖
+
+然后可以在vs code中按下 ctrl + shift + B 实时编译
+输出的js文件路径在tsconfig.json定义位dist文件夹下
+注意：ctrl + shift + B 后 watch选项为实时编译，即文件改动后就会编译
+build选项为手动编译
